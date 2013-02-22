@@ -64,13 +64,6 @@ h3{ font-size: 1.2em; margin-bottom: 1em;}
 article p{ text-align: justify; line-height: 1.5em; margin-bottom: 1em;}
 article .nivo2{margin-left: 4%;}
 
-#description p{ margin-bottom: 0.2em; font-family: baskerville, arial, sans-serif; font-size: 1.2em; text-align: justify;}
-#sommaire{}
-#sommaire li{margin: 1em 0;}
-#sommaire .actif li{margin: 1em 3em;}
-#toolbar{background: #f8f6f2; height: 50px;}
-#toolbar p{font-size: 1em; font-family: fontello, arial;}
-#sidebar{ background:#ccc; height:500px;}
 #searchbar{ margin-bottom: 2%;}
 #searchbar input{
     width: 100%;
@@ -80,6 +73,20 @@ article .nivo2{margin-left: 4%;}
     font-style: italic;
     padding-left: 50px;
 }
+
+#description p{ margin-bottom: 0.2em; font-family: baskerville, arial, sans-serif; font-size: 1.2em; text-align: justify;}
+
+#sommaire{}
+#sommaire li{margin: 1em 0;}
+#sommaire .actif li{margin: 1em 3em;}
+
+#toolbar{background: #f8f6f2; height: 40px; padding: 0.3em;}
+#toolbar li{list-style-type: none; display: inline; font-size: 2em; font-family: fontello, arial; border-right: solid #efefef 1px;}
+#toolbar li:hover{background: #41b7d8; color: #efefef;}
+#toolbar i{text-align: center; margin: 0.3em}
+
+#sidebar{ background:#ccc; height:500px;}
+#sidebar img{max-width: 100%;}
 
 .more{ margin: 0 48%; font-size: 2em;}
 
@@ -171,14 +178,11 @@ aside a img{width:50%;}
    ========================================================================== */
 
 @font-face {
-    font-family: 'BonvenoCFLight';
-    src: url('../font/fontello.eot');
-    src: url('../font/font/fontello.eot?#iefix') format('embedded-opentype'),
-         url('../font/font/fontello.woff') format('woff'),
-         url('../font/font/fontello.ttf') format('truetype'),
-         url('../font/font/fontello.svg#fontello') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'fontello';
+  src: url("../font/fontello.eot?18829426");
+  src: url("../font/fontello.eot?18829426#iefix") format('embedded-opentype'), url("../font/fontello.woff?18829426") format('woff'), url("../font/fontello.ttf?18829426") format('truetype'), url("../font/fontello.svg?18829426#fontello") format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* ==========================================================================
