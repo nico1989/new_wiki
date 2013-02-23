@@ -57,9 +57,11 @@ background: #ccc;
 height:100px;
 margin-bottom:2%;
 }
-a{text-decoration: none; color: #41b7d8;}
-h1{font-size: 2.1em; font-family: baskerville, arial, sans-serif; border-bottom: solid 1px #ccc; margin: 1.2em 0;}
-h2{ font-size: 1.7em; font-weight: normal; font-family: baskerville, arial, sans-serif; border-bottom: solid 1px #ccc; margin: 1.2em 0;}
+a{text-decoration: none; color: #41b7d8; -webkit-transition: 0.2 all ease;}
+a:hover{color: #d4490a;}
+
+h1{font-size: 2.1em; font-family: baskerville, arial, sans-serif; border-bottom: solid 1px #efefef; margin: 1.2em 0;}
+h2{ font-size: 1.7em; font-weight: normal; font-family: baskerville, arial, sans-serif; border-bottom: solid 1px #efefef; margin: 1.2em 0;}
 h3{ font-size: 1.2em; margin-bottom: 1em;}
 article p{ text-align: justify; line-height: 1.5em; margin-bottom: 1em;}
 article .nivo2{margin-left: 4%;}
@@ -68,20 +70,27 @@ article .nivo2{margin-left: 4%;}
 
 #description p{ margin-bottom: 0.2em; font-family: baskerville, arial, sans-serif; font-size: 1.2em; text-align: justify;}
 
-#sommaire{}
-#sommaire li{margin: 1em 0;}
+#sommaire{ border-right: #efefef solid 1px; margin-top: 30%;}
+#sommaire li{margin: 1.3em 0; font-weight: lighter;}
+#sommaire li:hover{color: #d4490a;}
 #sommaire .actif li{margin: 1em 3em;}
 
 #toolbar{background: #f8f6f2; height: 40px; padding: 0.3em;}
 #toolbar li{list-style-type: none; display: inline; font-size: 2em; font-family: fontello, arial; border-right: solid #efefef 1px;}
-#toolbar li:hover{color: #41b7d8;cursor:pointer;}
 #toolbar i{text-align: center; margin: 0.3em}
 
 #sidebar{ background:#f8f6f2; margin-top: 6.5%;}
 #sidebar img{max-width: 100%;}
+.main-img{margin-bottom: 2em;}
 #sidebar .identite{width: 100%; position: relative; float: left; margin: 0.6em 0; font-size: 0.9em;}
-#sidebar .intitulle{float: left; width: 40%; color: #d4490a;}
+#sidebar .intitulle{float: left; width: 40%;}
 #sidebar .infos{float: left; width: 60%;}
+
+#thumbs{width: 100%; margin: 2em 0; float: left;}
+#sidebar .thumb{width: 33.333333%; position: relative; float: left;}
+#sidebar .thumb img{max-width: 100%; position: relative; -webkit-transition: 0.5s all ease; -webkit-opacity: 0.8;}
+#sidebar .thumb img:hover{position: relative; z-index: 999; -webkit-transform: scale(1.1); -webkit-opacity: 1}
+
 
 .more{ margin: 0 48%; font-size: 2em;}
 
