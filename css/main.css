@@ -77,8 +77,11 @@ article .nivo2{margin-left: 4%;}
 #toolbar li:hover{color: #41b7d8;cursor:pointer;}
 #toolbar i{text-align: center; margin: 0.3em}
 
-#sidebar{ background:#ccc; height:500px;}
+#sidebar{ background:#f8f6f2; margin-top: 6.5%;}
 #sidebar img{max-width: 100%;}
+#sidebar .identite{width: 100%; position: relative; float: left; margin: 0.6em 0; font-size: 0.9em;}
+#sidebar .intitulle{float: left; width: 40%; color: #d4490a;}
+#sidebar .infos{float: left; width: 60%;}
 
 .more{ margin: 0 48%; font-size: 2em;}
 
