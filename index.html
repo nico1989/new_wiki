@@ -64,13 +64,15 @@
            </header>
 
            <div id="searchbar" class="span_18 col">
-            <input type="text" placeholder="Rechercher dans wikipedia"/>
+                  <form action="" autocomplete="on">
+                      <input id="search" name="search" type="text" placeholder="What're we looking for ?"><input id="search_submit" value="Rechercher" type="submit">
+                      </form>
            </div>
 
         <div id="toolbar" class="span_18 col">
             <ul>
-                <li><i class="icon-flag"></i></li>
-                <li><i class="icon-attention"></i></li>
+                <li class="tooltip" title="Signaler l'article"><i class="icon-flag"></i></li>
+                <li class="tooltip" title="Vérifier la validité"><i class="icon-attention"></i></li>
                 <li><i class="icon-pencil-alt"></i></li>
                 <li><i class="icon-export"></i></li>
                 <li><i class="icon-print"></i></li>
