@@ -72,11 +72,12 @@ article .nivo2{margin-left: 4%;}
 
 #sommaire{ border-right: #efefef solid 1px; margin-top: 30%;}
 #sommaire li{margin: 1.3em 0; font-weight: lighter;}
-#sommaire li:hover{color: #d4490a;}
+#sommaire li:hover{color: #efefef;}
 #sommaire .actif li{margin: 1em 3em;}
 
 #toolbar{background: #f8f6f2; height: 40px; padding: 0.3em;}
 #toolbar li{list-style-type: none; display: inline; font-size: 2em; font-family: fontello, arial; border-right: solid #efefef 1px;}
+#toolbar li:hover{color: #efefef; background: #41b7d8;;}
 #toolbar i{text-align: center; margin: 0.3em}
 
 #sidebar{ background:#f8f6f2; margin-top: 6.5%;}
