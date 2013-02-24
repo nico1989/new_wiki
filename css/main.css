@@ -99,11 +99,22 @@ article .nivo2{margin-left: 4%;}
 aside #logo{ display: block; text-align: center; margin-bottom: 8%;}
 aside a img{width:50%;}
 
+.main-test{background: red; width: 100%; position: absolute;}
+.bloc-test-1{ background: green; width: 19.25%; float: left; position: relative;}
+.bloc-test-2{ background: green; width: 53.25%; float: left; position: relative;}
+.bloc-test-3{ background: green; width: 23.5%; float: left; position: relative;}
+
+.gutter-test{float: left; width: 2%;}
+.gutter-test-1{float: left; width: 10.38961%;}
+.gutter-test-2{float: left; width: 3.7558685%;}
+.gutter-test-3{float: left; width: 9.574468%;}
+
+.col1{background: black; width: 11.688311%; float: left;}
+.col2{background: black; width: 4.2253521%; float: left;}
+.col3{background: black; width: 8.5106382%; float: left;} 
 
 
 #searchbar {
- 
-
 
   position: relative;
   height: 60px;
