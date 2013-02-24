@@ -46,7 +46,7 @@ textarea { resize: vertical;}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{font: 14px helvetica, arial, sans-serif;}
+body{font: 14px helvetica, arial, sans-serif; background: red;}
 
 #page_wrap{
 /*background:url('../img/bg.png');*/
@@ -83,11 +83,11 @@ h3{ font-size: 1.2em; margin-bottom: 1em;}
 article p{ text-align: justify; line-height: 1.5em; margin-bottom: 1em;}
 article .nivo2{margin-left: 4%;}
 
-
+#sommaire, #sidebar, #description, #toolbar, #searchbar, #logo, #content{background: green;}
 
 #description p{ margin-bottom: 0.2em; font-family: baskerville, arial, sans-serif; font-size: 1.2em; text-align: justify;}
 
-#sommaire{ border-right: #efefef solid 1px; margin-top: 30%;}
+#sommaire{ border-right: #efefef solid 1px; margin-top: 30%; margin-left: 11.688311%;}
 #sommaire li{margin: 1.3em 0; font-weight: lighter;}
 #sommaire li:hover{color: #efefef;}
 #sommaire .actif li{margin: 1em 3em;}
