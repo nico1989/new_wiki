@@ -46,24 +46,50 @@ textarea { resize: vertical;}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/************/
+/* Global */
+/************/
+
+
 body{font: 14px helvetica, arial, sans-serif; background: red;}
 
-#page_wrap{
-/*background:url('../img/bg.png');*/
-}
+a{ text-decoration: none; color: #41b7d8; -webkit-transition: 0.2 all ease;}
+a:hover{ color: #d4490a;}
+sup{ display: none;}
 
-#page_wrap header{
-margin-bottom:2%;
-}
+h1{ font-size: 2.8em; font-family: baskerville, georia, serif; border-bottom: solid 1px #efefef; margin: 4.2253521% 0; padding-bottom: 3.7558685%;}
+h2{ font-size: 1.7em; font-weight: normal; font-family: baskerville, arial, sans-serif; border-bottom: solid 1px #efefef; margin: 4.2253521% 0; padding-bottom: 3.7558685%;}
+h3{ font-size: 1.2em; margin: 4.2253521% 0; border-bottom: solid 1px #efefef; padding-bottom: 3.7558685%;}
+h4{ font-size: 1.1em; margin: 4.2253521%;}
+
+article p{ text-align: justify; line-height: 1.5em; margin-bottom: 1em;}
+article .nivo2{margin-left: 7.9812206%;}
 
 
-#page_wrap header ul{
-margin-top:5px;
-}
+/*************/
+/*  Header  */
+/*************/
+
+
+#toolbar{ background: #f8f6f2; padding: 0.3em;}
+#toolbar li{width: 5.5373792%; text-align: center; display: inline-block; list-style-type: none; font-size: 1.8em; font-family: fontello, arial; border-right: solid #efefef 1px; color:#444; -webkit-transition-property: color;
+-webkit-transition-duration: 0.1s;}
+#toolbar li:hover{color: #41b7d8; cursor: pointer;}
+
+#searchbar { position: relative; height: 60px; padding: 0; position: relative; margin-bottom: 2%;}
+
+#page_wrap{ /*background:url('../img/bg.png');*/ }
+
+#page_wrap header{ margin-bottom:2%; }
+
+#page_wrap header ul{ margin-top:5px; }
 
 #page_wrap header li{
 list-style-type: none; 
 float: right;
+width: 5.5373791%;
+text-align: center;
 font-size: 1.2em; 
 font-family: fontello, 
 arial; border-right: solid 
@@ -74,19 +100,12 @@ arial; border-right: solid
 
 #page_wrap header li:hover{color: #41b7d8; cursor: pointer;}
 
-a{text-decoration: none; color: #41b7d8; -webkit-transition: 0.2 all ease;}
-a:hover{color: #d4490a;}
-sup{display: none;}
+/************/
+/* Sommaire */
+/************/
 
-h1{font-size: 2.8em; font-family: baskerville, georia, serif; border-bottom: solid 1px #efefef; margin: 0.8em 0;}
-h2{ font-size: 1.7em; font-weight: normal; font-family: baskerville, arial, sans-serif; border-bottom: solid 1px #efefef; margin: 1.2em 0;}
-h3{ font-size: 1.2em; margin-bottom: 1em;}
-article p{ text-align: justify; line-height: 1.5em; margin-bottom: 1em;}
-article .nivo2{margin-left: 7.9812206%;}
 
 #sommaire, #sidebar, #description, #toolbar, #searchbar, #logo, #content, #top{background: green;}
-
-#description p{ margin-bottom: 0.2em; font-family: baskerville, arial, sans-serif; font-size: 1.2em; text-align: justify;}
 
 #sommaire{ border-right: #efefef solid 1px; margin-top: 10%; margin-left: 22.077921%;}
 #sommaire li{margin: 1.3em 0; font-weight: lighter;}
@@ -102,15 +121,13 @@ article .nivo2{margin-left: 7.9812206%;}
   -webkit-animation:thedrop 1s 1;
 }
 
-.selected{
-  background: red;
-}
+#description p{ margin-bottom: 0.2em; font-family: baskerville, arial, sans-serif; font-size: 1.2em; text-align: justify;}
 
-#toolbar{background: #f8f6f2; height: 40px; padding: 0.3em;}
-#toolbar li{list-style-type: none; display: inline; font-size: 2em; font-family: fontello, arial; border-right: solid #efefef 1px;color:#444;-webkit-transition-property: color;
--webkit-transition-duration: 0.1s;}
-#toolbar li:hover{color: #41b7d8; cursor: pointer;}
-#toolbar i{text-align: center; margin: 0.3em}
+.selected{ background: red; }
+/***********/
+/* Sidebar */
+/***********/
+
 
 #sidebar{ background:#f8f6f2; margin-top: 2%;}
 #sidebar img{max-width: 100%; margin-bottom: 6.574468%}
@@ -125,11 +142,19 @@ article .nivo2{margin-left: 7.9812206%;}
 #sidebar .thumb img:hover{position: relative; z-index: 999; -webkit-transform: scale(1.1); -webkit-opacity: 1}
 
 
-.more{ margin: 0 48%; font-size: 2em;}
+/************/
+/*   Logo   */
+/************/
 
 
 aside #logo{ display: block; text-align: center; margin-bottom: 8%;}
 aside a img{width:50%;}
+
+
+/*************/
+/*   Tests   */
+/*************/
+
 
 .main-test{background: red; width: 100%; position: absolute;display: none;}
 .bloc-test-1{ background: green; width: 19.25%; float: left; position: relative;}
@@ -146,16 +171,7 @@ aside a img{width:50%;}
 .col3{background: black; width: 8.5106382%; float: left;} 
 
 
-#searchbar {
 
-  position: relative;
-  height: 60px;
-
-  padding: 0;
-  position: relative;
-  margin-bottom: 2%;
-
-}
 
 input[type="text"] {
   height: 60px;
