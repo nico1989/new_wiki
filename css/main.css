@@ -100,6 +100,7 @@ arial; border-right: solid
 
 #page_wrap header li:hover{color: #41b7d8; cursor: pointer;}
 
+
 /************/
 /* Sommaire */
 /************/
@@ -137,7 +138,7 @@ arial; border-right: solid
 #sidebar .intitulle{float: left; width: 36.170212%; background: green;}
 #sidebar .infos{float: left; width: 63.82979%; background: green;}
 
-#thumbs{width: 100%; margin: 2em 0; float: left;}
+#thumbs{width: 100%; margin: 9.574468% 0; float: left;}
 #sidebar .thumb{width: 33.333333%; position: relative; float: left;}
 #sidebar .thumb img{max-width: 100%; position: relative; -webkit-transition: 0.5s all ease; -webkit-opacity: 0.8;}
 #sidebar .thumb img:hover{position: relative; z-index: 999; -webkit-transform: scale(1.1); -webkit-opacity: 1}
