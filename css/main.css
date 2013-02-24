@@ -52,7 +52,7 @@ textarea { resize: vertical;}
 /************/
 
 
-body{font: 14px helvetica, arial, sans-serif; background: red;}
+body{font: 14px helvetica, arial, sans-serif; background: red; padding-top: 2%;}
 
 a{ text-decoration: none; color: #41b7d8; -webkit-transition: 0.2 all ease;}
 a:hover{ color: #d4490a;}
@@ -72,8 +72,8 @@ article .nivo2{margin-left: 7.9812206%;}
 /*************/
 
 
-#toolbar{ background: #f8f6f2; padding: 0.3em;}
-#toolbar li{width: 5.5373792%; text-align: center; display: inline-block; list-style-type: none; font-size: 1.8em; font-family: fontello, arial; border-right: solid #efefef 1px; color:#444; -webkit-transition-property: color;
+#toolbar{ background: #f8f6f2;}
+#toolbar li{width: 5.5373792%; text-align: center; display: inline-block; list-style-type: none; font-size: 1.8em; font-family: fontello, arial; border-left: solid #efefef 1px; color:#444; -webkit-transition-property: color;
 -webkit-transition-duration: 0.1s;}
 #toolbar li:hover{color: #41b7d8; cursor: pointer;}
 
@@ -85,20 +85,26 @@ article .nivo2{margin-left: 7.9812206%;}
 
 #page_wrap header ul{ margin-top:5px; }
 
+#top .them{float: left;}
+
 #page_wrap header li{
 list-style-type: none; 
 float: right;
-width: 5.5373791%;
+width: 10%;
 text-align: center;
 font-size: 1.2em; 
-font-family: fontello, 
-arial; border-right: solid 
-#efefef 1px;
+font-family: fontello, arial; 
+border-left: solid #efefef 1px;
 -webkit-transition-property: color;
 -webkit-transition-duration: 0.1s;
 }
 
 #page_wrap header li:hover{color: #41b7d8; cursor: pointer;}
+
+#page_wrap header li p{text-align: center;}
+
+#top .baseline{float: left; font-size: 2.5em; font-family: handlee-regular, garamond, arial;}
+
 
 
 /************/
@@ -108,7 +114,7 @@ arial; border-right: solid
 
 #sommaire, #sidebar, #description, #toolbar, #searchbar, #logo, #content, #top{background: green;}
 
-#sommaire{ border-right: #efefef solid 1px; margin-top: 10%; margin-left: 22.077921%;}
+#sommaire{ border-right: #efefef solid 1px; margin-top: 10%;}
 #sommaire li{margin: 1.3em 0; font-weight: lighter;}
 #sommaire li:hover{color: #efefef;}
 #sommaire .actif li{margin: 1em 3em;}
@@ -125,6 +131,9 @@ arial; border-right: solid
 #description p{ margin-bottom: 0.2em; font-family: baskerville, arial, sans-serif; font-size: 1.2em; text-align: justify;}
 
 .selected{ background: red; }
+
+#sommaire .tocnumber{display: block; width: 22.077921%; float: left;}
+
 
 /***********/
 /* Sidebar */
