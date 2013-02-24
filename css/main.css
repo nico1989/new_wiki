@@ -76,18 +76,19 @@ arial; border-right: solid
 
 a{text-decoration: none; color: #41b7d8; -webkit-transition: 0.2 all ease;}
 a:hover{color: #d4490a;}
+sup{display: none;}
 
 h1{font-size: 2.8em; font-family: baskerville, georia, serif; border-bottom: solid 1px #efefef; margin: 1.2em 0;}
 h2{ font-size: 1.7em; font-weight: normal; font-family: baskerville, arial, sans-serif; border-bottom: solid 1px #efefef; margin: 1.2em 0;}
 h3{ font-size: 1.2em; margin-bottom: 1em;}
 article p{ text-align: justify; line-height: 1.5em; margin-bottom: 1em;}
-article .nivo2{margin-left: 4%;}
+article .nivo2{margin-left: 7.9812206%;}
 
 #sommaire, #sidebar, #description, #toolbar, #searchbar, #logo, #content{background: green;}
 
 #description p{ margin-bottom: 0.2em; font-family: baskerville, arial, sans-serif; font-size: 1.2em; text-align: justify;}
 
-#sommaire{ border-right: #efefef solid 1px; margin-top: 30%; margin-left: 11.688311%;}
+#sommaire{ border-right: #efefef solid 1px; margin-top: 30%; margin-left: 22.077921%;}
 #sommaire li{margin: 1.3em 0; font-weight: lighter;}
 #sommaire li:hover{color: #efefef;}
 #sommaire .actif li{margin: 1em 3em;}
@@ -115,8 +116,8 @@ article .nivo2{margin-left: 4%;}
 #sidebar img{max-width: 100%;}
 .main-img{margin-bottom: 2em;}
 #sidebar .identite{width: 100%; position: relative; float: left; margin: 0.6em 0; font-size: 0.9em;}
-#sidebar .intitulle{float: left; width: 40%;}
-#sidebar .infos{float: left; width: 60%;}
+#sidebar .intitulle{float: left; width: 36.170212%; background: green;}
+#sidebar .infos{float: left; width: 63.82979%; background: green;}
 
 #thumbs{width: 100%; margin: 2em 0; float: left;}
 #sidebar .thumb{width: 33.333333%; position: relative; float: left;}
