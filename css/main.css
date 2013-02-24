@@ -53,14 +53,31 @@ body{font: 14px helvetica, arial, sans-serif;}
 }
 
 #page_wrap header{
-background: #ccc;
-height:100px;
 margin-bottom:2%;
 }
+
+
+#page_wrap header ul{
+margin-top:5px;
+}
+
+#page_wrap header li{
+list-style-type: none; 
+float: right;
+font-size: 1.2em; 
+font-family: fontello, 
+arial; border-right: solid 
+#efefef 1px;
+-webkit-transition-property: color;
+-webkit-transition-duration: 0.1s;
+}
+
+#page_wrap header li:hover{color: #41b7d8; cursor: pointer;}
+
 a{text-decoration: none; color: #41b7d8; -webkit-transition: 0.2 all ease;}
 a:hover{color: #d4490a;}
 
-h1{font-size: 2.1em; font-family: baskerville, arial, sans-serif; border-bottom: solid 1px #efefef; margin: 1.2em 0;}
+h1{font-size: 2.8em; font-family: baskerville, georia, serif; border-bottom: solid 1px #efefef; margin: 1.2em 0;}
 h2{ font-size: 1.7em; font-weight: normal; font-family: baskerville, arial, sans-serif; border-bottom: solid 1px #efefef; margin: 1.2em 0;}
 h3{ font-size: 1.2em; margin-bottom: 1em;}
 article p{ text-align: justify; line-height: 1.5em; margin-bottom: 1em;}
@@ -75,9 +92,23 @@ article .nivo2{margin-left: 4%;}
 #sommaire li:hover{color: #efefef;}
 #sommaire .actif li{margin: 1em 3em;}
 
+.sticky {
+  position: fixed;
+  top: 15px;
+  
+  animation:thedrop 1s 1;
+  -moz-animation:thedrop 1s 1;
+  -webkit-animation:thedrop 1s 1;
+}
+
+.selected{
+  background: red;
+}
+
 #toolbar{background: #f8f6f2; height: 40px; padding: 0.3em;}
-#toolbar li{list-style-type: none; display: inline; font-size: 2em; font-family: fontello, arial; border-right: solid #efefef 1px;}
-#toolbar li:hover{color: #efefef; background: #41b7d8;;}
+#toolbar li{list-style-type: none; display: inline; font-size: 2em; font-family: fontello, arial; border-right: solid #efefef 1px;color:#444;-webkit-transition-property: color;
+-webkit-transition-duration: 0.1s;}
+#toolbar li:hover{color: #41b7d8; cursor: pointer;}
 #toolbar i{text-align: center; margin: 0.3em}
 
 #sidebar{ background:#f8f6f2; margin-top: 6.5%;}
@@ -99,7 +130,7 @@ article .nivo2{margin-left: 4%;}
 aside #logo{ display: block; text-align: center; margin-bottom: 8%;}
 aside a img{width:50%;}
 
-.main-test{background: red; width: 100%; position: absolute;}
+.main-test{background: red; width: 100%; position: absolute;display: none;}
 .bloc-test-1{ background: green; width: 19.25%; float: left; position: relative;}
 .bloc-test-2{ background: green; width: 53.25%; float: left; position: relative;}
 .bloc-test-3{ background: green; width: 23.5%; float: left; position: relative;}
@@ -121,6 +152,7 @@ aside a img{width:50%;}
 
   padding: 0;
   position: relative;
+  margin-bottom: 2%;
 
 }
 
@@ -132,11 +164,11 @@ input[type="text"] {
   outline: none;
   color: #555;
   padding: 3px;
-  padding-right: 60px;
+  padding-left: 60px;
   width: 0px;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   background: none;
   z-index: 3;
   -webkit-transition: width 1s cubic-bezier(0.000, 0.795, 0.000, 1.000);
@@ -164,7 +196,7 @@ input[type="submit"] {
   border: none;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: 2;
   cursor: pointer;
   opacity: 0.4;
@@ -188,9 +220,7 @@ input[type="submit"]:hover {
     position: absolute;
     z-index: 98;
     font-size: 0.5em;
-    width: auto;
-    -webkit-transition: opacity 2s ease;
-    width: 110px;
+    width: 135px;
     text-align: center;
     
 }
