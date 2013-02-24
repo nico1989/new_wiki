@@ -124,6 +124,7 @@ arial; border-right: solid
 #description p{ margin-bottom: 0.2em; font-family: baskerville, arial, sans-serif; font-size: 1.2em; text-align: justify;}
 
 .selected{ background: red; }
+
 /***********/
 /* Sidebar */
 /***********/
