@@ -28,8 +28,8 @@ $(function() {
 		}
 	});
 	
-	var sections = $("section");
-	var navigation_links = $("a");
+	var sections = $(".nivo2");
+	var navigation_links = $("#sommaire ul li a span");
 	
 	sections.waypoint({
 		handler: function(event, direction) {
