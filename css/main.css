@@ -92,7 +92,7 @@ list-style-type: none;
 float: right;
 width: 10%;
 text-align: center;
-font-size: 1.2em; 
+font-size: 1.1em; 
 font-family: fontello, arial; 
 border-left: solid #efefef 1px;
 -webkit-transition-property: color;
@@ -185,7 +185,7 @@ aside a img{width:50%;}
 
 input[type="text"] {
   height: 40px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   display: inline-block;
   border: none;
   outline: none;
