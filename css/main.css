@@ -104,7 +104,6 @@ border-left: solid #efefef 1px;
 
 #page_wrap header li p{text-align: center;}
 
-#top .baseline{float: left; font-size: 2.5em; font-family: handlee-regular, garamond, arial;}
 
 
 
@@ -224,6 +223,7 @@ input[type="text"]:focus {
   border-bottom: 1px solid #BBB;
   cursor: text;
 }
+
 input[type="submit"] {
   height: 40px;
   width: 33px;
@@ -289,9 +289,41 @@ sup{
    Media Queries
    ========================================================================== */
 
+@media only screen and (max-width: 1024px) {
+  
+  #sidebar{ width: 78.75%; float: right;}
+  #sidebar .main-img{ float: left; width: 33.2247546%; background: red;}
+  #sidebar #content-sidebar{float: left; width: 66.7752454%; -webkit-box-sizing: border-box; padding-left: 1%;}
+  #sidebar .identite{margin: 0.5% 0;}
+
+  #sidebar .thumb{width: 11.1%; position: relative; float: left;}
+  #sidebar .thumb img{max-width: 100%; position: relative; -webkit-transition: 0.5s all ease; -webkit-opacity: 0.8;}
+
+  #thumbs{width: 100%;float: left; margin: 0;}
+
+  article .nivo2{padding-right: 7.9812206%; margin-left: 7.9812206%; border-right: solid 1px #efefef;}
+
+  .span_13{ width: 76.75%;}  
+  #sidebar .span_13{ width: 76.75%;}  
+  #content .span_13{ width: 76.75%;}  
+
+  #searchbar{ width: 41.25%;}
+  #top{ width: 35%;}
+
+  #page_wrap header li{ width: 32%; }
+}
+
+@media (min-width: 1224px){
+
+  #page_wrap{width: 1224px;}
+
+}
+
 @media only screen and (min-width: 35em) {
 
 }
+
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),

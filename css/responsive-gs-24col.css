@@ -52,7 +52,7 @@
 
 
 /* COLUMN WIDTH ON DISPLAYS +768px */
-@media ( min-width : 768px ) {
+@media ( min-width : 768px){
 	.span_1 { width: 2.25%; }
 	.span_2 { width: 6.5%; }
 	.span_3 { width: 10.75%; }
