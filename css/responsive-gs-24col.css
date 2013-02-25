@@ -52,8 +52,8 @@
 
 
 /* COLUMN WIDTH ON DISPLAYS +768px */
-@media ( min-width : 768px){
-	.span_1 { width: 2.25%; }
+
+	.span_1 { width: 2.25%; background: pink; height: 2000px;}
 	.span_2 { width: 6.5%; }
 	.span_3 { width: 10.75%; }
 	.span_4 { width: 15.0%; }
@@ -77,5 +77,5 @@
 	.span_22 { width: 91.5%; }
 	.span_23 { width: 95.75%; }
 	.span_24 { width: 100%; }
-}
+
 
