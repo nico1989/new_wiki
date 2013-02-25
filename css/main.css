@@ -58,22 +58,22 @@ a{ text-decoration: none; color: #41b7d8; -webkit-transition: 0.2 all ease;}
 a:hover{ color: #d4490a;}
 sup{ display: none;}
 
-h1{ font-size: 2.8em; font-family: baskerville, georia, serif; border-bottom: solid 1px #efefef; margin: 4.2253521% 0; padding-bottom: 3.7558685%;}
+h1{color:#111; font-size: 2.8em; font-family: baskerville, georia, serif; border-bottom: solid 1px #efefef; margin: 4.2253521% 0; padding-bottom: 3.7558685%;}
 h2{ font-size: 1.7em; font-weight: normal; font-family: baskerville, arial, sans-serif; border-bottom: solid 1px #efefef; margin: 4.2253521% 0; padding-bottom: 3.7558685%;}
 h3{ font-size: 1.2em; margin: 4.2253521% 0; border-bottom: solid 1px #efefef; padding-bottom: 3.7558685%;}
 h4{ font-size: 1.1em; margin: 4.2253521%;}
 
 article p{ text-align: justify; line-height: 1.5em; margin-bottom: 1em;}
-article .nivo2{margin-left: 7.9812206%;}
-
+article .nivo2{padding-right: 7.9812206%; margin-left: 7.9812206%; border-right: solid 1px #efefef;}
+p{color:#555;}
 
 /*************/
 /*  Header  */
 /*************/
 
 
-#toolbar{ }
-#toolbar li{width: 5.5373792%; text-align: center; float: left; list-style-type: none; font-size: 1.8em; font-family: fontello, arial; border-left: solid #efefef 1px; color:#444; -webkit-transition-property: color;
+#toolbar{ margin-top:1%;}
+#toolbar li{width: 5.5373792%; text-align: center; float: left; list-style-type: none; font-size: 1.2em; font-family: fontello, arial; border-left: solid #efefef 1px; color:#444; -webkit-transition-property: color;
 -webkit-transition-duration: 0.1s;}
 #toolbar li:hover{color: #41b7d8; cursor: pointer;}
 
@@ -85,12 +85,13 @@ article .nivo2{margin-left: 7.9812206%;}
 
 #page_wrap header ul{ margin-top:5px; }
 
-#top .them{float: left; width: 11.074918%;}
+#top .search-bar{float: left; width: 100%; padding-left: 1%;}
 
 #page_wrap header li{
 list-style-type: none; 
 float: right;
-width: 10%;
+color: #333;
+width: 33.33333333%;
 text-align: center;
 font-size: 1.1em; 
 font-family: fontello, arial; 
@@ -121,13 +122,17 @@ border-left: solid #efefef 1px;
 .sticky {
   position: fixed;
   top: 15px;
-  
+  width:;
   animation:thedrop 1s 1;
   -moz-animation:thedrop 1s 1;
   -webkit-animation:thedrop 1s 1;
 }
 
-#description p{ margin-bottom: 0.2em; font-family: baskerville, arial, sans-serif; font-size: 1.2em; text-align: justify;}
+#description p{ margin-bottom: 0.2em; padding-right: 7.9812206%; font-family: baskerville, arial, sans-serif; font-size: 1.2em; text-align: justify; border-right: solid 1px #efefef;}
+#alert{background: #FCDADA;}
+
+#alert p{margin-top: 4.2253521%; padding: 2%; text-align: left; vertical-align: middle;}
+.alert{float: left; font-size: 2em; margin-top: 10px; width: 7.9812206%; text-align: center;}
 
 .selected{ background: red; }
 
@@ -139,7 +144,7 @@ border-left: solid #efefef 1px;
 /***********/
 
 
-#sidebar{ background:#f8f6f2; margin-top: 2%;}
+#sidebar{ margin-top: 2%;}
 #sidebar img{max-width: 100%; margin-bottom: 6.574468%}
 .main-img{margin-bottom: ;}
 #sidebar .identite{width: 100%; position: relative; float: left; margin: 3% 0; font-size: 0.9em;}
@@ -189,10 +194,9 @@ input[type="text"] {
   display: inline-block;
   border: none;
   outline: none;
-  color: #555;
+  color: #333;
   padding: 3px;
   padding-left: 60px;
-  width: 0px;
   position: absolute;
   top: 0;
   left: 0;
@@ -200,6 +204,14 @@ input[type="text"] {
   z-index: 3;
   -webkit-transition: width 1s cubic-bezier(0.000, 0.795, 0.000, 1.000);
   cursor: pointer;
+    width: 100%;
+}
+
+::-webkit-input-placeholder{font-weight: normal; font-size: 0.9em;}
+
+input[type="text"]:hover {
+  border-bottom: 1px solid #BBB;
+  margin-bottom: -1px;
 }
 
 input[type="text"]:focus:hover {
@@ -207,7 +219,7 @@ input[type="text"]:focus:hover {
 }
 
 input[type="text"]:focus {
-  width: 100%;
+
   z-index: 1;
   border-bottom: 1px solid #BBB;
   cursor: text;
@@ -239,7 +251,7 @@ input[type="submit"]:hover {
     background: #333;
     background: rgba(0,0,0,.8);
     border-radius: 5px;
-    bottom: 39px;
+    bottom: 25px;
     color: #fff;
     content: attr(title);
     left: 20%;
@@ -249,6 +261,7 @@ input[type="submit"]:hover {
     font-size: 0.5em;
     width: 135px;
     text-align: center;
+    font-size: 0.7em;
     
 }
 .tooltip{
@@ -260,7 +273,7 @@ input[type="submit"]:hover {
     border: solid;
     border-color: #333 transparent;
     border-width: 6px 6px 0 6px;
-    bottom: 33px;
+    bottom: 20px;
     content: "";
     left: 50%;
     position: absolute;
